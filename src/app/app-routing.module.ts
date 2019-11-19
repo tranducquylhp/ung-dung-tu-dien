@@ -10,6 +10,10 @@ const routes: Routes = [
     path: 'dictionary',
     component: DictionaryPageComponent
   },
+  {
+    path: 'dictionary/:key',
+    component: DictionaryDetailComponent
+  }
 ];
 
 @NgModule({

@@ -4,7 +4,7 @@
 
 <ul>
   <li *ngFor="let word of listWord">
-    <p>{{ word.key }}</p>
+    <a [routerLink]="['/dictionary', word.key]">{{ word.key }}</a>
   </li>
 </ul>
 
